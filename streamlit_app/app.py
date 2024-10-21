@@ -4,43 +4,42 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import os
 
-# Ruta absoluta al archivo data.csv
-data_path = '/Users/jotaduranbon/Desktop/Proyectos/Proyecto final/data/data.csv'
+# Ruta relativa al archivo data.csv
+data_path = os.path.join(os.path.dirname(__file__), '../data/data.csv')
 
-# Cargar el dataset
-df = pd.read_csv(data_path)
+# Verificar si el archivo existe en la ruta especificada
+if not os.path.exists(data_path):
+    st.error(f"File not found: {data_path}")
+else:
+    # Cargar el dataset
+    df = pd.read_csv(data_path)
 
-# Título de la aplicación
-st.title('Data Visualization App')
+    # Título de la aplicación
+    st.title('Data Visualization App')
 
-# Descripción de la aplicación
-st.markdown("""
-Esta aplicación web permite visualizar diferentes gráficos del dataset.
-""")
+    # Descripción de la aplicación
+    st.markdown("""
+    Esta aplicación web permite visualizar diferentes gráficos del dataset.
+    """)
 
-# Mostrar las primeras cinco filas del dataset
-st.subheader('Dataset Overview')
-st.write(df.head())
+    # Mostrar las primeras cinco filas del dataset
+    st.subheader('Dataset Overview')
+    st.write(df.head())
 
-
-# Descripción de las columnas
-st.markdown("""
-**Descripción de las columnas:**
-- `User_ID`: Identificador único del usuario.
-- `Age`: Edad del usuario.
-- `Gender`: Género del usuario.
-- `Technology_Usage_Hours`: Horas de uso de tecnología por día.
-- `Social_Media_Usage_Hours`: Horas de uso de redes sociales por día.
-- `Gaming_Hours`: Horas de juego por día.
-- `Screen_Time_Hours`: Horas de tiempo de pantalla por día.
-- `Mental_Health_Status`: Estado de salud mental del usuario.
-- `Stress_Level`: Nivel de estrés del usuario.
-- `Sleep_Hours`: Horas de sueño por día.
-- `Physical_Activity_Hours`: Horas de actividad física por día.
-- `Support_Systems_Access`: Acceso a sistemas de apoyo.
-- `Work_Environment_Impact`: Impacto del entorno laboral.
-- `Online_Support_Usage`: Uso de soporte en línea.
-""")
+    # Descripción de las columnas
+    st.markdown("""
+    **Descripción de las columnas:**
+    - `User_ID`: Identificador único del usuario.
+    - `Age`: Edad del usuario.
+    - `Gender`: Género del usuario.
+    - `Technology_Usage_Hours`: Horas de uso de tecnología por día.
+    - `Social_Media_Usage_Hours`: Horas de uso de redes sociales por día.
+    - `Gaming_Hours`: Horas de juego por día.
+    - `Screen_Time_Hours`: Horas de tiempo de pantalla por día.
+    - `Mental_Health_Status`: Estado de salud mental del usuario.
+    - `Stress_Level`: Nivel de estrés del usuario.
+    - `Sleep_Hours`: Horas de sueño por día.
+    """)
 
 
 # Sidebar para la navegación
