@@ -4,17 +4,11 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import os
 
-# Verify the current working directory
-print("Current working directory:", os.getcwd())
-
-# Change the working directory to the root directory of your project
-os.chdir('/Users/jotaduranbon/Desktop/Proyecto final')
-
-# Verify that the directory change was successful
-print("New working directory:", os.getcwd())
+# Ruta absoluta al archivo data.csv
+data_path = '/Users/jotaduranbon/Desktop/Proyectos/Proyecto final/data/data.csv'
 
 # Cargar el dataset
-df = pd.read_csv('data/data.csv')
+df = pd.read_csv(data_path)
 
 # Título de la aplicación
 st.title('Data Visualization App')
