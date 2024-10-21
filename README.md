@@ -28,7 +28,7 @@ This project allows:
 ## 📈 Results
 The results of the analysis include:
 - 📊 Interactive charts showing the distribution of different variables.
-- 🌐 An interactive web application to explore the results.
+- 🌐 An interactive web application to explore the results, click [here](https://mental-health-project-kcuqkcenrfxnllzmfhrdot.streamlit.app)
 
 ## 🧠 Conclusions
 The conclusions of the project highlight the importance of data cleaning and visualization to understand patterns and trends in the data. The analysis provides insights into how technology usage affects mental health indicators.
