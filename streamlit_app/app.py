@@ -41,6 +41,27 @@ else:
     - `Sleep_Hours`: Horas de sueño por día.
     """)
 
+    # Conclusiones del proyecto
+    st.subheader('Conclusiones del Proyecto')
+    st.markdown("""
+    Las conclusiones del proyecto destacan la importancia de la limpieza y visualización de datos para comprender patrones y tendencias en los datos. El análisis proporciona información sobre cómo el uso de la tecnología afecta los indicadores de salud mental.
+
+    1. **Acceso a Sistemas de Apoyo**:
+       - Las personas con mejor acceso a sistemas de apoyo tienden a participar en más actividades físicas y reportan un mejor estado de salud mental. Las personas con mejor acceso a sistemas de apoyo, como amigos, familia o servicios comunitarios, tienden a participar en más actividades físicas. Esto puede deberse a que el apoyo social proporciona motivación y oportunidades para ser más activos. Además, estas personas también reportan un mejor estado de salud mental, posiblemente porque el apoyo social puede reducir el estrés y proporcionar un sentido de pertenencia y seguridad.
+
+    2. **Impacto del Entorno Laboral**:
+       - Un entorno laboral negativo puede estar asociado con menos horas de sueño. Un entorno laboral negativo, caracterizado por altos niveles de estrés, malas relaciones con colegas o jefes y condiciones de trabajo insatisfactorias, puede estar asociado con menos horas de sueño. El estrés y la ansiedad generados por un mal ambiente de trabajo pueden dificultar la capacidad de relajarse y dormir bien.
+
+    3. **Uso del Apoyo en Línea**:
+       - Las personas que pasan más tiempo utilizando apoyo en línea tienden a participar en menos actividades físicas. Las personas que pasan más tiempo utilizando apoyo en línea, como foros, redes sociales o servicios de chat, tienden a participar en menos actividades físicas. Esto puede deberse a que el tiempo dedicado a estas actividades en línea reduce el tiempo disponible para el ejercicio físico. Además, el uso excesivo de dispositivos electrónicos puede llevar a un estilo de vida más sedentario.
+
+    4. **Uso de Tecnología y Redes Sociales**:
+       - No existe una relación fuerte entre el uso de la tecnología y el uso de las redes sociales. No existe una relación fuerte entre el uso de la tecnología y el uso de las redes sociales. Esto sugiere que el tiempo que las personas pasan utilizando tecnología (como computadoras, tabletas y teléfonos inteligentes) no está necesariamente relacionado con el tiempo que pasan en redes sociales. Las personas pueden usar la tecnología para una variedad de actividades que no incluyen las redes sociales, como trabajar, estudiar o entretenerse.
+
+    5. **Género y Uso de Tecnología**:
+       - El uso de la tecnología es similar entre diferentes géneros en este conjunto de datos. El uso de la tecnología es similar entre diferentes géneros en este conjunto de datos. Esto indica que no hay diferencias significativas en la cantidad de tiempo o la forma en que hombres y mujeres utilizan la tecnología. Ambos géneros parecen tener patrones de uso de tecnología comparables.
+    """)
+
 
 # Sidebar para la navegación
 st.sidebar.title('Navigation')
