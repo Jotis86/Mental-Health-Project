@@ -73,6 +73,10 @@ The web application includes the following visualizations:
 - `📄 requirements.txt`: File listing the project dependencies.
 - `📄 README.md`: Project description, setup instructions, and usage.
 
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
 ## 📞 Contact and Suggestions
 For any inquiries or suggestions, please contact:
 - **👤 Name**: Juan Duran Bon
