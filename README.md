@@ -1,5 +1,7 @@
 # 📊 Data Analysis Project
 
+![Project Image](images/SM.png)
+
 ## 📝 Description
 This project focuses on analyzing the relationship between mental health and technology usage. It includes data extraction, cleaning, visualization, and a web application using Streamlit. The goal is to understand how different aspects of technology usage, such as social media and gaming, impact mental health indicators like stress levels and sleep patterns.
 
