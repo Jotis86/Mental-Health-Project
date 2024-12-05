@@ -2,6 +2,14 @@
 
 ![Project Image](images/SM.png)
 
+![Commits](https://img.shields.io/github/commit-activity/m/Jotis86/Mental-Health-Project)
+![Issues Abiertas](https://img.shields.io/github/issues/Jotis86/Mental-Health-Project)
+![Pull Requests](https://img.shields.io/github/issues-pr/Jotis86/Mental-Health-Project)
+![Forks](https://img.shields.io/github/forks/Jotis86/Mental-Health-Project)
+![Tamaño del Repositorio](https://img.shields.io/github/repo-size/Jotis86/Mental-Health-Project)
+![Autor](https://img.shields.io/badge/autor-Juan%20Duran%20Bon-blue)
+![Licencia](https://img.shields.io/github/license/Jotis86/Mental-Health-Project)
+
 ## 📝 Description
 This project focuses on analyzing the relationship between mental health and technology usage. It includes data extraction, cleaning, visualization, and a web application using Streamlit. The goal is to understand how different aspects of technology usage, such as social media and gaming, impact mental health indicators like stress levels and sleep patterns.
 
