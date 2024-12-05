@@ -92,3 +92,11 @@ For any inquiries or suggestions, please contact:
 - **🐙 LinkedIn**: www.linkedin.com/in/juan-duran-bon
 
 Thank you for your interest in this project! 🙌
+
+---
+
+🌟 **Thank you for exploring the Mental Health Project!** 🌟
+
+We hope this project inspires you to delve deeper into the fascinating intersection of technology and mental health. Remember, data is not just numbers; it's a powerful tool to understand and improve our lives. Keep exploring, keep questioning, and most importantly, keep caring. Together, we can make a difference. 💖
+
+Happy coding! 🚀
