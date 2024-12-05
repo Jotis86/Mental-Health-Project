@@ -1,4 +1,4 @@
-# 📊 Data Analysis Project
+# 📊 Mental Health Project
 
 ![Project Image](images/SM.png)
 
